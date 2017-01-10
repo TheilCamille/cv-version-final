@@ -1,0 +1,102 @@
+@font-face { font-family: "starsMe";
+                src: url('./starthings.ttf');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 98%;
+    height: 98%;
+   font-family: 'Press Start 2P', cursive; 
+    background-color: black;
+    color: white;
+    
+    border:  1px #00A2FF solid;
+
+}
+
+header {
+    display: flex;
+    
+    justify-content: flex-end;
+    
+   
+}
+
+main {
+    width: 80%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+}
+section {
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    height: 100%;
+    
+    padding: 1em;
+    
+    text-align: justify;
+    
+    line-height: 160%;
+    
+} 
+
+.devicon-html5-plain {
+    font-size:  2em;
+}
+
+.devicon-css3-plain {
+    font-size: 2em;
+}
+
+.devicon-javascript-plain {
+    font-size: 2em;
+}
+
+.devicon-jquery-plain {
+    font-size: 2em;
+}
+
+.devicon-php-plain {
+    font-size: 2em;
+}
+
+.devicon-mysql-plain {
+    font-size: 2em;
+}
+
+.devicon-nodejs-plain {
+    font-size: 2em;
+}
+
+.devicon-mongodb-plain {
+    font-size: 2em;
+}
+
+.devicon-linux-plain {
+    font-size: 2em;
+}
+
+.devicon-github-plain {
+    font-size: 2em;
+}
+
+.devicon-trello-plain {
+    font-size: 2em;
+}
+
+a {
+    color: #00A2FF;
+    
+}
+
+a:visited {
+    color: #00A2FF;
+}
